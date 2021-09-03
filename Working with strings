@@ -1,23 +1,23 @@
-phrase="GiraffeAcademy"
+phrase ="Giraffe Academy"
 
 
 print(phrase)
-#printinupercase
-print(phrase.upper())
-#printinlowercase
-print(phrase.lower())
-#cantellhowmanycharinastring
-print(len(phrase))
+#print in upercase
+print (phrase.upper())
+#print in lowercase
+print (phrase.lower())
+#can tell how many char in a string
+print (len(phrase))
 
 #printingfirstcharacter
-print(phrase[0])
+print (phrase[0])
 
-#indexfunctionletusknowwherecharislocated
-print(phrase.index("a"))
+#index function let us know where char is located
+print (phrase.index("a"))
 
-#replacefunction
-print(phrase.replace("Giraffe","Elephant"))
+#replace function
+print (phrase.replace("Giraffe","Elephant"))
 
 
-#writingontwoseperatrlines
-print("Giraffe\nAcademy")
+#writing on two seperatr lines
+print ("Giraffe\nAcademy")

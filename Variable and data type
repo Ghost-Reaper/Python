@@ -1,8 +1,8 @@
-characer_name="john"
-characer_age="35"
-is_male=True
+characer_name = "john"
+characer_age = "35"
+is_male = True
 
-print("Thereoncewasamannamed"+characer_name+",")
-print("hewas"+characer_age+"yearsold.")
-print("Hereallylikedthename"+characer_name)
-print("butdidn'tlikebeing"+characer_age+".")
+print("There once was a man named "+characer_name+",")
+print("he was "+characer_age+" years old.")
+print("He really liked the name "+characer_name)
+print("but didn't like being "+characer_age+".")

@@ -1,0 +1,8 @@
+characer_name="john"
+characer_age="35"
+is_male=True
+
+print("Thereoncewasamannamed"+characer_name+",")
+print("hewas"+characer_age+"yearsold.")
+print("Hereallylikedthename"+characer_name)
+print("butdidn'tlikebeing"+characer_age+".")

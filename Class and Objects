@@ -1,0 +1,27 @@
+from student import student
+
+student1 = student ("Jim","Business",3.1,False)
+student2 = student ("Nick","Computer Science",4.0,False)
+
+print (student2.major)
+
+
+
+_______________________________________________________________________________
+
+
+class student:
+
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probatin = is_on_probation
+
+
+        def on_honor_roll(self):
+            self.on_honor_roll
+            if self.gpa >= 3.5:
+                return True
+            else:
+                return False

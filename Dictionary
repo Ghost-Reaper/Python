@@ -1,0 +1,11 @@
+
+monthConversions = {
+"Jan":"January",
+"Feb":"February",
+"Mar":"March",
+}
+
+#the not exist part is for when user put in a word that is not in database
+
+print (monthConversions.get ("Dec","Not Exist"))
+

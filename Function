@@ -1,0 +1,9 @@
+def say_hi (name, age):
+
+#codes need to be indented
+
+    print ("hello "+ name +" you are " + age)
+
+say_hi ("Mike", "35")
+say_hi ("Steve", "70")
+

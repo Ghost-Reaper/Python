@@ -1,0 +1,57 @@
+
+friends=["Kevin","Jim","Karen","Nick","Bell","Devy"]
+
+#can change value of place
+friends[1]="Mike"
+print(friends[1])
+
+
+#index
+print (friends[0])
+
+print (friends[2])
+
+#print last name in list
+print (friends[-1])
+
+#select all at 1 anda fter
+print(friends[1:])
+
+
+
+
+
+
+
+lucky_numbers = [4,8,16,23,42]
+
+friends = ["Kevin","Jim","Karen","Nick","Bell","Devy"]
+
+#adding two list together
+friends.extend(lucky_numbers)
+
+print (friends)
+
+
+lucky_numbers = [4,8,16,23,42]
+
+friends = ["Kevin","Jim","Karen","Nick","Bell","Devy"]
+
+#adding two list together
+friends.extend (lucky_numbers)
+
+#append allows you to add anitem to the end of the list
+friends.append("creed'")
+
+#insert
+friends.insert(1,"kelly")
+
+friends.remove("Devy")
+
+friends.index(("Bell"))
+
+
+
+
+
+print (friends)
